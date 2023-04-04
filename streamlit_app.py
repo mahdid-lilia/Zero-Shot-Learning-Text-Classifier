@@ -155,8 +155,9 @@ def main():
 
 if selected == "Demo (5 phrases max)":
 
-    API_KEY = st.secrets["api_key"]
-   
+    API_KEY = st.secrets["API_KEY"]
+
+
     API_URL = (
         "https://api-inference.huggingface.co/models/valhalla/distilbart-mnli-12-3"
     )
@@ -339,7 +340,7 @@ elif selected == "Unlocked Mode":
 
     with st.form(key="my_form"):
         API_KEY2 = st.text_input(
-            "Enter your 🤗 HuggingFace API key",
+            "Enter your HuggingFace API key",
             help="Once you created you HuggiginFace account, you can get your free API token in your settings page: https://huggingface.co/settings/tokens",
         )
 
@@ -540,3 +541,5 @@ if __name__ == "__main__":
 # )
 
 
+
+# pour faire des emojis on clique windows + point 
