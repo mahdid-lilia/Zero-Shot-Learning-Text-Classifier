@@ -1,4 +1,4 @@
-# -Zero-Shot-Learning-Text-Classifier
+# Zero-Shot-Learning-Text-Classifier
 
 I have created a zero-shot learning text classifier using Hugging Face's API inference and Distilbart!
 
